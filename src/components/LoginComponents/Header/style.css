@@ -1,0 +1,33 @@
+.navegation-login{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0px 20px;
+    box-shadow: 0 0.1rem 0.5rem transparent;
+    width: 100%;
+    background: transparent;
+    transition: all 0.8s;
+    position: fixed;
+    z-index: 2;
+}
+
+.navegation-login ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navegation-login ul a{
+    background: rgb(211, 208, 208);
+    padding: 8px 10px;
+    border-radius: 50px;
+    color: black;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.navegation-login ul a:hover{
+    background-color: white;
+    color: red;
+}

@@ -1,0 +1,112 @@
+.login-area{
+    display: flex;
+    height:100vh;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 26, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.login{
+    position: relative;
+    justify-content: center;
+    background: #0e1538;
+    box-sizing: 0 0 10px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 35px;
+    overflow: hidden;
+}
+
+.login::before{
+    content: '';
+    position: absolute;
+    width: 700px;
+    height: 140%;
+    background: linear-gradient(orange, rgb(27, 26, 26));
+    animation: animate 4s linear infinite;
+}
+
+.login::after{
+    content: '';
+    position: absolute;
+    inset: 1px;
+    background: rgb(27, 26, 26);
+    border-radius: 10px;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 10;
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: #252a34;
+    color: white;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.login img{
+    position: absolute;
+    margin-bottom: 330px;
+    width: 80px;
+    height: auto;
+    z-index: 10;
+}
+
+.login input::placeholder{
+    color: #a2aacd;
+    font-size: 14px;
+}
+
+.login form [type="submit"]{
+    background-color: rgb(204, 151, 53);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.login form [type="submit"]:hover{
+    display: block;
+    background: orange;
+    color: #181920;
+}
+
+.login p{
+    margin-top: 15px;
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+    z-index: 10;
+}
+
+.login a{
+    color: #5568fe;
+    text-decoration: none;
+    z-index: 10;
+}

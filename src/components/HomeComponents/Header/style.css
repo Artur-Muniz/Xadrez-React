@@ -1,0 +1,35 @@
+.navegation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+    box-shadow: 0 0.1rem 0.5rem transparent;
+    width: 100%;
+    transition: all 0.8s;
+    position: fixed;
+    z-index: 2;
+}
+
+.navegation img{
+    width: 40px;
+}
+
+.navegation ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navegation ul li a{
+    background: rgb(211, 208, 208);
+    padding: 8px 10px;
+    border-radius: 50px;
+    color: black;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.navegation ul li a:hover{
+    background-color: white;
+    color: red;
+}
