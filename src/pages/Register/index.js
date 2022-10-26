@@ -1,14 +1,15 @@
 import React from 'react'
-import RegisterArea from '../../components/RegisterComponents/RegisterArea'
-import Header from '../../components/LoginComponents/Header'
+import VizuTorneio from '../../components/ADMScreenComponents/Body/VizuTorneios'
+import RGTorneio from '../../components/ADMScreenComponents/Body/RGTorneios'
 
-function Register () {
+function ADMBody() {
   return (
-    <div>
-      <Header />
-      <RegisterArea />
+    <div class="admbody">
+        <VizuTorneio />
+        <RGTorneio />
     </div>
+    
   )
 }
 
-export default Register
+export default ADMBody

@@ -1,0 +1,21 @@
+.nextComp table, th, td{
+    padding: 5px 20px 5px 20px;
+    border-collapse: collapse;
+    border: 10px solid rgb(85, 83, 79);
+}
+
+.nextComp table{
+    width: 100%;
+}
+
+.nextComp th{
+    background-color: #ac7344;
+}
+
+.nextComp tr:nth-child(odd){
+    background-color: #f0d9b5;
+}
+
+.nextComp tr:nth-child(even){
+    background-color: #cea67c;
+}

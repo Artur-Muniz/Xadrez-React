@@ -1,0 +1,21 @@
+.rapidaRate table, th, td{
+    padding: 5px 20px 5px 20px;
+    border-collapse: collapse;
+    border: 1px solid rgb(85, 83, 79);
+}
+
+.rapidaRate table{
+    width: 150%;
+}
+
+.rapidaRate th{
+    background-color: #ac7344;
+}
+
+.rapidaRate tr:nth-child(odd){
+    background-color: #f0d9b5;
+}
+
+.rapidaRate tr:nth-child(even){
+    background-color: #cea67c;
+}

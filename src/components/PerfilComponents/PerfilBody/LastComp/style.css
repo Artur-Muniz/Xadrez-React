@@ -1,0 +1,21 @@
+.lastComp table, th, td{
+    padding: 5px 20px 5px 20px;
+    border-collapse: collapse;
+    border: 10px solid rgb(85, 83, 79);
+}
+
+.lastComp table{
+    width: 100%;
+}
+
+.lastComp th{
+    background-color: #ac7344;
+}
+
+.lastComp tr:nth-child(odd){
+    background-color: #f0d9b5;
+}
+
+.lastComp tr:nth-child(even){
+    background-color: #cea67c;
+}

@@ -1,26 +1,27 @@
-.navegationADM{
+.navegationRT{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 40px;
+    padding: 3px 40px;
     box-shadow: 0 0.1rem 0.5rem transparent;
     width: 100%;
-    transition: all 0.8s;
+    background: #cea67c;
+    transition: all 0.5s;
     position: fixed;
     z-index: 2;
 }
 
-.navegationADM img{
+.navegationRT img{
     width: 30px;
 }
 
-.navegationADM ul{
+.navegationRT ul{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.navegationADM ul li a{
+.navegationRT ul li a{
     background: rgb(211, 208, 208);
     padding: 8px 50px;
     border-radius: 10px;
@@ -29,23 +30,23 @@
     transition: all 0.5s;
 }
 
-.navegationADM ul li a:hover{
+.navegationRT ul li a:hover{
     background-color: white;
     color: red;
 }
 
-.navegationADM ul ul{
+.navegationRT ul ul{
     display: none;
     position: absolute;
 }
 
-.navegationADM ul li:hover ul{
+.navegationRT ul li:hover ul{
     display: block;
     border-radius: 10px;
     text-align: center;
 }
 
-.navegationADM ul ul li a{
+.navegationRT ul ul li a{
     display: block;
     background-color: rgb(255, 249, 249);
     border-radius: 0px;

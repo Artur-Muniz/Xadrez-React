@@ -1,0 +1,22 @@
+.bulletRate table, th, td{
+    padding: 5px 20px 5px 20px;
+    border-collapse: collapse;
+    border: 1px solid rgb(85, 83, 79);
+}
+
+.bulletRate table{
+    width: 150%;
+}
+
+.bulletRate th{
+    background-color: #ac7344;
+}
+
+.bulletRate tr:nth-child(odd){
+    background-color: #f0d9b5;
+}
+
+.bulletRate tr:nth-child(even){
+    background-color: #cea67c;
+}
+
