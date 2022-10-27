@@ -1,7 +1,7 @@
 import React from 'react'
 import Cadastro from "../../../img/cadastro.svg"
 import Calculadora from "../../../img/calculadora.svg"
-import Torneio from "../../../img/torneio.png"
+import Torneio from "../../../img/TROFEU.svg"
 import './style.css'
 
 function Third_page() {
