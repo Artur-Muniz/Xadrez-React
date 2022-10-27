@@ -1,6 +1,6 @@
 import React from 'react'
-import Cadastro from "../../../img/cadastro.png"
-import Calculadora from "../../../img/calculator.png"
+import Cadastro from "../../../img/cadastro.svg"
+import Calculadora from "../../../img/calculadora.svg"
 import Torneio from "../../../img/torneio.png"
 import './style.css'
 
@@ -15,11 +15,11 @@ function Third_page() {
                 </div>
                 <div class="tournament">
                     <h2>CONTROLE E AGENDAMENTO<br/>DE TORNEIOS</h2>
-                    <img src={Calculadora} alt=""/>
+                    <img src={Torneio} alt=""/>
                 </div>
                 <div class="calculate">
                     <h2>REGULAGEM, SWISS MANAGER<br/>E CALCULO DE RATE AUTOMÁTICO</h2>
-                    <img src={Torneio} alt=""/>
+                    <img src={Calculadora} alt=""/>
                 </div>
             </div>
         </section>

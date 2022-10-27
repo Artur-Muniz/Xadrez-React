@@ -1,14 +1,13 @@
 import React from 'react'
-import VizuTorneio from '../../components/ADMScreenComponents/Body/VizuTorneios'
-import RGTorneio from '../../components/ADMScreenComponents/Body/RGTorneios'
+import Register from '../../components/RegisterComponents/RegisterArea'
+import Header from '../../components/RegisterComponents/RegisterHeader'
 
 function ADMBody() {
   return (
-    <div class="admbody">
-        <VizuTorneio />
-        <RGTorneio />
+    <div>
+      <Header/>
+      <Register/>  
     </div>
-    
   )
 }
 

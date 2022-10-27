@@ -29,16 +29,17 @@
 }
 
 .functions .registrate img{
+    margin-left: 80px;
     margin-top: 100px;
-    width: 200px;
+    width: 300px;
 }
 
 .functions .tournament img{
     margin-top: 100px;
-    width: 210px;
+    width: 300px;
 }
 
 .functions .calculate img{
     margin-top: 100px;
-    width: 150px;
+    width: 200px;
 }

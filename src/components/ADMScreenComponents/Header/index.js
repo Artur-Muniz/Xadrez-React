@@ -12,7 +12,7 @@ function Header()  {
                   <ul>
                     <li><a href='/Perfil'>Perfil</a></li>
                     <li><a href='/Rate'>Classificação</a></li>
-                    <li><a href='#'>Sair</a></li>
+                    <li><a href='/'>Sair</a></li>
                   </ul>
                 </li>
             </ul>

@@ -1,0 +1,5 @@
+.rateBody2{
+    display: flex;
+    gap: 150px;
+    flex-direction: row;
+}

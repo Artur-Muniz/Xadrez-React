@@ -11,7 +11,7 @@ function prfHeader()  {
                 <li><a href="#">Usuario ADM</a>
                   <ul>
                     <li><a href='/Rate'>Classificação</a></li>
-                    <li><a href='#'>Sair</a></li>
+                    <li><a href='/'>Sair</a></li>
                   </ul>
                 </li>
             </ul>

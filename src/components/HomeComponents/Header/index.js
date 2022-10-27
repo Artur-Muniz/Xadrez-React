@@ -8,8 +8,8 @@ function Header () {
         <nav class="navegation">
                 <a href="/"><img src={Logo} alt="logo"/></a>
             <ul>
-                <li><a href="Login">INICIAR SESSÃO</a></li>
-                <li><a href="Register">CADASTRE-SE</a></li>
+                <li><a href="/LOGIN">INICIAR SESSÃO</a></li>
+                <li><a href="/Register">CADASTRE-SE</a></li>
             </ul>
         </nav>
     </header>

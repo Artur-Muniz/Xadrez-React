@@ -110,3 +110,20 @@
     text-decoration: none;
     z-index: 10;
 }
+
+.triangulo1{
+    position: absolute;
+    left: 0;
+    width: 40%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.triangulo2{
+    position: absolute;
+    transform: rotate(-180deg);
+    margin-left: 576px;
+    width: 40%;
+    height: 100vh;
+    object-fit: cover;
+}
